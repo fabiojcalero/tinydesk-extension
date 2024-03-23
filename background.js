@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     chrome.cookies.get(
       {
         url: "https://api.tinydesk.me/",
-        name: "commandt.sid",
+        name: "tinydesk.sid",
       },
       function (cookie) {
         if (cookie) {

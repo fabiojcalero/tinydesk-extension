@@ -9,10 +9,6 @@
     "default_popup": "popup.html"
   },
   "permissions": ["tabs", "cookies", "*://*.tinydesk.me/"],
-
-  "chrome_url_overrides": {
-    "newtab": "redirect.html"
-  },
   "background": {
     "scripts": ["background.js"],
     "persistent": false
